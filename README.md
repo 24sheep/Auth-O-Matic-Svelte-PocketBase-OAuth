@@ -1,7 +1,7 @@
 # OAuth-O-Matic: SvelteKit + PocketBase + OAuth2 (Auto-magicly)
 
 This project is based on [ShowCase](https://github.com/huntabyte/showcase) by
-[Hunter (huntabyte) Johnston](https://github.com/huntabyte/showcase). For more information,
+[Hunter (huntabyte) Johnston](https://github.com/huntabyte). For more information,
 I recommend checking out his series on [YouTube Channel](https://youtube.com/@huntabyte). A
 big thanks goes out to Hunter! PocketBase offers great OAuth2 account creation and login, but
 it can be tricky to set up.
