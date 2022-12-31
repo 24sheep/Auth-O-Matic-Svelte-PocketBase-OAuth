@@ -1,6 +1,6 @@
 # Auth-O-Matic: SvelteKit + PocketBase + OAuth2
 
-[OAuth](https://user-images.githubusercontent.com/43993/210156991-df57e0a8-d63e-4227-8af3-fb0d6eb0f9d9.png)
+![OAuth](https://user-images.githubusercontent.com/43993/210156991-df57e0a8-d63e-4227-8af3-fb0d6eb0f9d9.png?raw=true)
 
 This project is based on [ShowCase](https://github.com/huntabyte/showcase) by
 [Hunter (huntabyte) Johnston](https://github.com/huntabyte). For more information,oA
