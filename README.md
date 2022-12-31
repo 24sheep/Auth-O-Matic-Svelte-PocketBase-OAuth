@@ -1,7 +1,9 @@
 # Auth-O-Matic: SvelteKit + PocketBase + OAuth2
 
+[OAuth](https://user-images.githubusercontent.com/43993/210156991-df57e0a8-d63e-4227-8af3-fb0d6eb0f9d9.png)
+
 This project is based on [ShowCase](https://github.com/huntabyte/showcase) by
-[Hunter (huntabyte) Johnston](https://github.com/huntabyte). For more information,
+[Hunter (huntabyte) Johnston](https://github.com/huntabyte). For more information,oA
 I recommend checking out his series on [YouTube Channel](https://youtube.com/@huntabyte). A
 big thanks goes out to Hunter! PocketBase offers great OAuth2 account creation and login, but
 it can be tricky to set up.
@@ -27,4 +29,5 @@ We have also included some tools for authorization (e.g. route protection). Plea
 1. Clone this repository
 2. Install dependencies: npm install
 3. Download [PocketBase](https://pocketbase.io/)
-4. Link them up and you're ready to go!
+4. Link them up and you're ready to go!!
+
