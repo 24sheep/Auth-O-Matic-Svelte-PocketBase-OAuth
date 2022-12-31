@@ -1,59 +1,30 @@
-# New Project (+ POCKETBASE) Steps After init install
-- pnpm install pocketbase --save ("pocketbase": "^0.9.0",)
-- TESTING:
-- "@faker-js/faker": "^7.6.0",
-- pnpm install --save-dev @faker-js/faker
+# OAuth-O-Matic: SvelteKit + PocketBase + OAuth2 (Auto-magic)
 
-- STYLING
-- "tailwindcss"
-- npx svelte-add@latest tailwindcss
-- "daisyui"
-- pnpm i --save-dev daisyui
-- "svelte-icons"
-- pnpm install --save svelte-icons
-- "svelte-french-toast"
-- pnpm install svelte-french-toast
+This project is based on [ShowCase](https://github.com/huntabyte/showcase) by
+[Hunter (huntabyte) Johnston](https://github.com/huntabyte/showcase). For more information,
+I recommend checking out his series on [YouTube Channel](https://youtube.com/@huntabyte). A
+big thanks goes out to Hunter! PocketBase offers great OAuth2 account creation and login, but
+it can be tricky to set up.
 
-- VALIDATION
-- "@felte/validator-zod": "^1.0.12",
-- "zod": "^3.20.2"
-- pnpm install --save @felte/validator-zod zod
+This project makes it easy to set up OAuth2 by generating links for each supported provider and adding them to your PocketBase backend. The links are styled with TailwindCSS and DaisyUI, and 'enabled' providers are generated as functional sign-in buttons with their name and logo SVG.
 
-# create-svelte
+## Adding OAuth providers
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+After you have installed the SvelteKit app and PocketBase backend, adding OAuth providers is simple:
+
+0. Setup your Dev account with each provider, taking note of your 'client_id' & 'client_secret'
+1. Go to Settings > Auth providers
+2. Add your 'client_id' & 'client_secret' information
+3. The providers will be automatically added to your OAuth sign-in options with a button and icon at the '/signin' end point.
+
+
+## More features
+
+We have also included some tools for authorization (e.g. route protection). Please feel free to improve the code as needed.
 
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+1. Clone this repository
+2. Install dependencies: npm install
+3. Download [PocketBase](https://pocketbase.io/)
+4. Link them up and you're ready to go!
