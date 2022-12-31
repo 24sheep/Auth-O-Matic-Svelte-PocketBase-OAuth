@@ -1,4 +1,4 @@
-# Auth-O-Magick: SvelteKit + PocketBase + OAuth2
+# Auth-O-Matic: SvelteKit + PocketBase + OAuth2
 
 This project is based on [ShowCase](https://github.com/huntabyte/showcase) by
 [Hunter (huntabyte) Johnston](https://github.com/huntabyte). For more information,
